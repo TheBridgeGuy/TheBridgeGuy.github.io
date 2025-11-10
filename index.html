@@ -1,30 +1,430 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stephen's Portfolio Reels</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="reels-bg">
+    <section class="phone-frame">
+      <!-- Top Bar -->
+      <header class="top-bar">
+        <nav class="reels-nav">
+          <button class="tab-btn active" data-page="about">About</button>
+          <button class="tab-btn inactive" data-page="projects">Projects</button>
+        </nav>
+      </header>
 
-<body>
-  <div>
-    <h1>Stephen</h1>
-    <p>quotes to live by</p>
-    <ul>
-      <li>"freak like me" - Doja Cat</li>
-      <li>"wobbly wiggly" - Travis Scott</li>
-      <li>"moonbeam ice cream" - Benson Boone</li><br>
-      <a href="https://www.youtube.com/watch?v=WzHGLOPuxHA&list=RDWzHGLOPuxHA&start_radio=1">Link to my personal information</a>
-    </ul><br>
-  </div>
-  <div>
-    <h2>Fun Facts About Me</h2>
-    <h4>My favorite artist is Clairo</h3>
-    <p>Don't have a personal favorite (every song is good)</p>
-    <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Clairo_-_Immunity.png" width="300" height="300" control/>
-    <h4>I love drinking matcha</h3>
-    <p>I always use reusable cups</p>
-    <img src="https://greenheartlove.com/wp-content/uploads/2023/05/matcha-boba-tea-5.jpg" width="300" height="300" control/>
-    <h4>I collect Labubus<h4/>
-    <img src="https://images.stockx.com/images/Pop-Mart-Labubu-The-Monsters-Dress-Be-Latte-Vinyl-Plush-Doll.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1722970337" width="300" height="300" control/>
-    <h4>I watch love island weekly</h3>
-    <img src="https://m.media-amazon.com/images/M/MV5BMmY1MDUxYWItZTYyMi00MTY5LWEyYmEtM2U1NjMyN2Y1MDY3XkEyXkFqcGc@._V1_.jpg" width="300" height="300" control/>
-    
-  </div>
-</body>
+      <!-- About Page -->
+      <main id="about-page" class="page-container">
+        <section class="reel-container scroll-reels">
+          <!-- Favorite Artist Reel -->
+          <article class="reel" style="background: #000;">
+            <div class="reel-background" style="background-image: url('https://upload.wikimedia.org/wikipedia/en/d/dc/Clairo_-_Charm.png');"></div>
+            <header class="reel-content">
+              <img src="https://upload.wikimedia.org/wikipedia/en/d/dc/Clairo_-_Charm.png" alt="Clairo Album Cover" style="max-width: 3500px; width: 120%; border-radius: 20px; margin-bottom: 100px;">
+              <h3>My favorite artist</h3>
+              <p
+                >I always listen to Clairo, but I don't have a personal favorite (every song is good)</p
+              >
+            </header>
+            <aside class="reel-overlay right">
+              <span class="icon-btn">❤<span>67K</span></span>
+              <span class="icon-btn">💬<span>5</span></span>
+              <span class="icon-btn">➦<span>5.2k</span></span>
+              <span class="icon-btn">⋯</span>
+            </aside>
+            <footer class="reel-overlay bottom">
+              <span class="profile-row">
+                <img src="asset/avatar1.png" class="profile-pic" />
+                <span class="profile-name">stephen_liu</span>
+              </span>
+              <span class="desc"
+                >Building my first web portfolio! What do you think?</span
+              >
+            </footer>
+          </article>
 
+          <!-- Favorite Drink Reel -->
+          <article class="reel" style="background: #000;">
+            <div class="reel-background" style="background-image: url('https://greenheartlove.com/wp-content/uploads/2023/05/matcha-boba-tea-5.jpg');"></div>
+            <header class="reel-content">
+              <img src="https://greenheartlove.com/wp-content/uploads/2023/05/matcha-boba-tea-5.jpg" alt="Matcha Boba Tea" style="max-width: 3500px; width: 120%; border-radius: 20px; margin-bottom: 100px;">
+              <h3>Favorite Drink</h3>
+              <p>I love drinking Matcha, and I always use reusable cups!</p>
+            </header>
+            <aside class="reel-overlay right">
+              <span class="icon-btn">❤<span>23K</span></span>
+              <span class="icon-btn">💬<span>5</span></span>
+              <span class="icon-btn">➦<span>2.3k</span></span>
+              <span class="icon-btn">⋯</span>
+            </aside>
+            <footer class="reel-overlay bottom">
+              <span class="profile-row">
+                <img src="asset/avatar3.png" class="profile-pic" />
+                <span class="profile-name">stephen_liu</span>
+              </span>
+              <span class="desc">What people say about me!</span>
+            </footer>
+          </article>
+
+          <!-- Hobbies Reel -->
+          <article class="reel" style="background: #000;">
+            <div class="reel-background" style="background-image: url('https://upload.wikimedia.org/wikipedia/en/a/a9/Pop_Mart_Labubu_The_Monsters_Exciting_Macaron.jpg');"></div>
+            <header class="reel-content">
+              <img src="https://upload.wikimedia.org/wikipedia/en/a/a9/Pop_Mart_Labubu_The_Monsters_Exciting_Macaron.jpg" alt="Matcha Boba Tea" style="max-width: 3500px; width: 120%; border-radius: 20px; margin-bottom: 100px;">
+              <h2>My Hobbies</h2>
+              <p>In my spare time I love to collect Labubus!</p>
+            </header>
+            <aside class="reel-overlay right">
+              <span class="icon-btn">❤<span>42.6k</span></span>
+              <span class="icon-btn">💬<span>5</span></span>
+              <span class="icon-btn">➦<span>3.6k</span></span>
+              <span class="icon-btn">⋯</span>
+            </aside>
+            <footer class="reel-overlay bottom">
+              <span class="profile-row">
+                <img src="asset/avatar1.png" class="profile-pic" />
+                <span class="profile-name">stephen_liu</span>
+              </span>
+              <span class="desc">Let's get in touch!</span>
+            </footer>
+          </article>
+
+          <!-- Favorite Shhow Reel -->
+          <article class="reel" style="background: #000;">
+            <div class="reel-background" style="background-image: url('https://pyxis.nymag.com/v1/imgs/df4/e11/49f4bcc89100f21de8df79b71b0726c6b8-The-Summer-I-Turned-Pretty---Season-3-Te.1x.rsquare.w1400.jpg');"></div>
+            <header class="reel-content">
+              <img src="https://pyxis.nymag.com/v1/imgs/df4/e11/49f4bcc89100f21de8df79b71b0726c6b8-The-Summer-I-Turned-Pretty---Season-3-Te.1x.rsquare.w1400.jpg" alt="Matcha Boba Tea" style="max-width: 3500px; width: 120%; border-radius: 20px; margin-bottom: 100px;">
+              <h3>My favorite show</h3>
+              <p>I love The Summer I Turned Pretty, it's more of a lifestyle than a hobby</p>
+            </header>
+            <aside class="reel-overlay right">
+              <span class="icon-btn">❤<span>35.4k</span></span>
+              <span class="icon-btn">💬<span>5</span></span>
+              <span class="icon-btn">➦<span>5.8k</span></span>
+              <span class="icon-btn">⋯</span>
+            </aside>
+            <footer class="reel-overlay bottom">
+              <span class="profile-row">
+                <img src="asset/avatar1.png" class="profile-pic" />
+                <span class="profile-name">stephen_liu</span>
+              </span>
+              <span class="desc">Your description here!</span>
+            </footer>
+          </article>
+        </section>
+      </main>
+
+      <!-- Projects Page -->
+      <main id="projects-page" class="page-container" style="display: none;">
+        <section class="reel-container scroll-reels">
+          <!-- Projects Reel -->
+          <article class="reel">
+            <header class="reel-content">
+              <div class="project">
+                <h3>Rock Paper Scissors</h3>
+                <p>A recreation of the classic rock paper scissors game, using xcode swift.</p>
+              </div>
+            </header>
+            <aside class="reel-overlay right">
+              <span class="icon-btn">❤<span>52.1K</span></span>
+              <span class="icon-btn">💬<span>5</span></span>
+              <span class="icon-btn">➦<span>6.1k</span></span>
+              <span class="icon-btn">⋯</span>
+            </aside>
+            <footer class="reel-overlay bottom">
+              <span class="profile-row">
+                <img src="asset/avatar2.png" class="profile-pic" />
+                <span class="profile-name">stephen_liu</span>
+              </span>
+              <span class="desc">Check out my coding projects below!</span>
+            </footer>
+          </article>
+
+          <!-- Dice Roller Reel -->
+          <article class="reel">
+            <header class="reel-content">
+              <h3>Dice roller</h3>
+              <p>A Monopoly themed 6 sided dice roller, build with swift using xcode</p>
+            </header>
+            <aside class="reel-overlay right">
+              <span class="icon-btn">❤<span>1.5K</span></span>
+              <span class="icon-btn">💬<span>5</span></span>
+              <span class="icon-btn">➦<span>350</span></span>
+              <span class="icon-btn">⋯</span>
+            </aside>
+            <footer class="reel-overlay bottom">
+              <span class="profile-row">
+                <img src="asset/avatar2.png" class="profile-pic" />
+                <span class="profile-name">stephen_liu</span>
+              </span>
+              <span class="desc">My tech stack and abilities!</span>
+            </footer>
+          </article>
+
+          <!-- Contact Reel -->
+          <article class="reel">
+            <header class="reel-content">
+              <h3>Hangman</h3>
+              <p>A recreation of the hangman game built using swift using xcode</p>
+              <a href="mailto:your@email.com" class="email-link">Email me →</a>
+            </header>
+            <aside class="reel-overlay right">
+              <span class="icon-btn">♡<span>900</span></span>
+              <span class="icon-btn">💬<span>5</span></span>
+              <span class="icon-btn">➦<span>100</span></span>
+              <span class="icon-btn">⋯</span>
+            </aside>
+            <footer class="reel-overlay bottom">
+              <span class="profile-row">
+                <img src="asset/avatar2.png" class="profile-pic" />
+                <span class="profile-name">stephen_liu</span>
+              </span>
+              <span class="desc">Let's get in touch!</span>
+            </footer>
+          </article>
+        </section>
+      </main>
+
+      <!-- Footer Name and Circle -->
+      <footer class="footer-content">
+        <span class="footer-circle"></span>
+        <span>Stephen Liu</span>
+      </footer>
+
+      <!-- Comments Popup -->
+      <div id="comments-popup" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 1000; align-items: flex-end; justify-content: center;">
+        <div style="background: #fff; width: 100%; max-width: 420px; border-radius: 20px 20px 0 0; padding: 20px; max-height: 70%; overflow-y: auto;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+            <h3 style="margin: 0; color: #111;">Comments</h3>
+            <span id="close-comments" style="font-size: 24px; cursor: pointer; color: #111;">✕</span>
+          </div>
+          <div id="comments-list" style="color: #111;">
+            <div style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #eee;">
+              <strong>deets:</strong> stephen is the best at coding 🔥
+            </div>
+            <div style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #eee;">
+              <strong>declan:</strong> this guys hobbies are amazing
+            </div>
+            <div style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #eee;">
+              <strong>sherwin:</strong> damn i didnt know he was cold like that 
+            </div>
+            <div style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #eee;">
+              <strong>holly:</strong> clairo is my favorite artist as well! 
+            </div>
+            <div style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #eee;">
+              <strong>huck:</strong> i love instagram reels 
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Share Popup -->
+      <div id="share-popup" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 1000; align-items: center; justify-content: center;">
+        <div style="background: #fff; width: 90%; max-width: 350px; border-radius: 20px; padding: 30px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+            <h3 style="margin: 0; color: #111;">Contact Me</h3>
+            <span id="close-share" style="font-size: 24px; cursor: pointer; color: #111;">✕</span>
+          </div>
+          <form id="share-form">
+            <div style="margin-bottom: 15px;">
+              <label style="display: block; color: #111; margin-bottom: 5px; font-weight: 600;">Your Name:</label>
+              <input type="text" id="sender-name" placeholder="eg. stephen" required style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; box-sizing: border-box;">
+            </div>
+            <div style="margin-bottom: 15px;">
+              <label style="display: block; color: #111; margin-bottom: 5px; font-weight: 600;">Your Email:</label>
+              <input type="email" id="sender-email" placeholder="eg. stephen@gmail.com" required style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; box-sizing: border-box;">
+            </div>
+            <div style="margin-bottom: 15px;">
+              <label style="display: block; color: #111; margin-bottom: 5px; font-weight: 600;">Message:</label>
+              <textarea id="share-message" placeholder="Your message here..." required style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; resize: vertical; min-height: 80px; box-sizing: border-box;"></textarea>
+            </div>
+            <button type="submit" style="width: 100%; padding: 12px; background: #111; color: #fff; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer;">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Profile Popup -->
+      <div id="profile-popup" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 1000; align-items: center; justify-content: center;">
+        <div style="background: #fff; width: 90%; max-width: 350px; border-radius: 20px; padding: 30px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); text-align: center;">
+          <span id="close-profile" style="position: absolute; top: 15px; right: 15px; font-size: 24px; cursor: pointer; color: #111;">✕</span>
+          <img src="asset/avatar1.png" style="width: 100px; height: 100px; border-radius: 50%; margin: 0 auto 15px; display: block; border: 3px solid #111;">
+          <h2 style="margin: 0 0 10px; color: #111;">Stephen Liu</h2>
+          <p style="color: #666; margin: 0 0 20px; font-size: 14px;">@stephen_liu</p>
+          <div style="text-align: left; color: #111; margin-bottom: 20px;">
+            <p style="margin: 8px 0;"><strong>📍 Location:</strong> San Francisco, CA</p>
+            <p style="margin: 8px 0;"><strong>💼 Role:</strong> Web Developer & Designer</p>
+            <p style="margin: 8px 0;"><strong>🎓 School:</strong> High School Student</p>
+            <p style="margin: 8px 0;"><strong>✉️ Email:</strong> stephenliu@example.com</p>
+          </div>
+          <div style="display: flex; gap: 10px; justify-content: center;">
+            <button onclick="window.location.href='mailto:stephenliu@example.com'" style="flex: 1; padding: 10px; background: #111; color: #fff; border: none; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer;">Email Me</button>
+            <button onclick="document.getElementById('profile-popup').style.display='none'; document.getElementById('share-popup').style.display='flex';" style="flex: 1; padding: 10px; background: #fff; color: #111; border: 2px solid #111; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer;">Message</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      // Tab switching between About and Projects pages
+      const tabBtns = document.querySelectorAll('.tab-btn');
+      const aboutPage = document.getElementById('about-page');
+      const projectsPage = document.getElementById('projects-page');
+
+      tabBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          // Update tab styles
+          tabBtns.forEach(b => {
+            b.classList.remove('active');
+            b.classList.add('inactive');
+          });
+          btn.classList.add('active');
+          btn.classList.remove('inactive');
+
+          // Show the correct page
+          if (btn.dataset.page === 'about') {
+            aboutPage.style.display = 'flex';
+            projectsPage.style.display = 'none';
+          } else {
+            aboutPage.style.display = 'none';
+            projectsPage.style.display = 'flex';
+          }
+        });
+      });
+
+      // Like button functionality
+      const likeButtons = document.querySelectorAll('.icon-btn');
+      likeButtons.forEach(btn => {
+        if (btn.textContent.includes('❤')) {
+          btn.addEventListener('click', () => {
+            if (btn.style.color === 'red') {
+              btn.style.color = '#fff';
+            } else {
+              btn.style.color = 'red';
+            }
+          });
+        }
+        // Comment button functionality
+        if (btn.textContent.includes('💬')) {
+          btn.addEventListener('click', () => {
+            document.getElementById('comments-popup').style.display = 'flex';
+          });
+        }
+        // Share button functionality
+        if (btn.textContent.includes('➦')) {
+          btn.addEventListener('click', () => {
+            document.getElementById('share-popup').style.display = 'flex';
+          });
+        }
+      });
+
+      // Close comments popup
+      document.getElementById('close-comments').addEventListener('click', () => {
+        document.getElementById('comments-popup').style.display = 'none';
+      });
+
+      // Close popup when clicking outside
+      document.getElementById('comments-popup').addEventListener('click', (e) => {
+        if (e.target.id === 'comments-popup') {
+          document.getElementById('comments-popup').style.display = 'none';
+        }
+      });
+
+      // Close share popup
+      document.getElementById('close-share').addEventListener('click', () => {
+        document.getElementById('share-popup').style.display = 'none';
+      });
+
+      // Close share popup when clicking outside
+      document.getElementById('share-popup').addEventListener('click', (e) => {
+        if (e.target.id === 'share-popup') {
+          document.getElementById('share-popup').style.display = 'none';
+        }
+      });
+
+      // Handle share form submission
+      document.getElementById('share-form').addEventListener('submit', (e) => {
+        e.preventDefault();
+        const senderName = document.getElementById('sender-name').value;
+        const senderEmail = document.getElementById('sender-email').value;
+        const message = document.getElementById('share-message').value;
+        const subject = `Portfolio Contact from ${senderName}`;
+        const body = `From: ${senderName} (${senderEmail})\n\nMessage:\n${message}`;
+        
+        // Replace with your actual email address
+        window.location.href = `mailto:stephenliu@example.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        
+        // Close popup and reset form
+        document.getElementById('share-popup').style.display = 'none';
+        document.getElementById('share-form').reset();
+      });
+
+      // Profile popup functionality
+      const profilePics = document.querySelectorAll('.profile-pic');
+      const profileNames = document.querySelectorAll('.profile-name');
+      
+      profilePics.forEach(pic => {
+        pic.style.cursor = 'pointer';
+        pic.addEventListener('click', () => {
+          document.getElementById('profile-popup').style.display = 'flex';
+        });
+      });
+      
+      profileNames.forEach(name => {
+        name.style.cursor = 'pointer';
+        name.addEventListener('click', () => {
+          document.getElementById('profile-popup').style.display = 'flex';
+        });
+      });
+
+      // Close profile popup
+      document.getElementById('close-profile').addEventListener('click', () => {
+        document.getElementById('profile-popup').style.display = 'none';
+      });
+
+      // Close profile popup when clicking outside
+      document.getElementById('profile-popup').addEventListener('click', (e) => {
+        if (e.target.id === 'profile-popup') {
+          document.getElementById('profile-popup').style.display = 'none';
+        }
+      });
+
+      // Infinite scroll functionality
+      function setupInfiniteScroll(container) {
+        const reels = Array.from(container.children);
+        const reelHeight = reels[0].offsetHeight;
+        
+        // Clone reels and append them
+        reels.forEach(reel => {
+          const clone = reel.cloneNode(true);
+          container.appendChild(clone);
+        });
+        
+        // Add scroll listener for infinite loop
+        container.addEventListener('scroll', () => {
+          const scrollTop = container.scrollTop;
+          const totalReels = reels.length;
+          const totalHeight = reelHeight * totalReels;
+          
+          // If scrolled past original reels, reset to beginning
+          if (scrollTop >= totalHeight) {
+            container.scrollTop = scrollTop - totalHeight;
+          }
+          
+          // If scrolled before beginning (negative scroll), jump to end
+          if (scrollTop <= 0) {
+            container.scrollTop = totalHeight;
+          }
+        });
+      }
+      
+      // Setup infinite scroll for both pages
+      const aboutReels = document.querySelector('#about-page .scroll-reels');
+      const projectReels = document.querySelector('#projects-page .scroll-reels');
+      
+      setupInfiniteScroll(aboutReels);
+      setupInfiniteScroll(projectReels);
+    </script>
+  </body>
 </html>
