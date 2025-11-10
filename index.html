@@ -120,13 +120,16 @@
       <!-- Projects Page -->
       <main id="projects-page" class="page-container" style="display: none;">
         <section class="reel-container scroll-reels">
-          <!-- Projects Reel -->
-          <article class="reel">
+          <!-- RPS Reel -->
+          <article class="reel" style="background: #000;">
+            <div class="reel-background"></div>
             <header class="reel-content">
-              <div class="project">
-                <h3>Rock Paper Scissors</h3>
-                <p>A recreation of the classic rock paper scissors game, using xcode swift.</p>
-              </div>
+              <video preload="auto" autoplay loop muted playsinline webkit-playsinline style="max-width: 35000px; width: 120%; border-radius: 20px; margin-bottom: 100px; margin-left: 20px; margin-top: 150px; object-fit: cover; background: #000;">
+                <source src="asset/rps.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <h3>Rock Paper Scissors</h3>
+              <p>A recreation of the classic rock paper scissors game, using xcode swift.</p>
             </header>
             <aside class="reel-overlay right">
               <span class="icon-btn">❤<span>52.1K</span></span>
@@ -144,7 +147,8 @@
           </article>
 
           <!-- Dice Roller Reel -->
-          <article class="reel">
+          <article class="reel" style="background: #000;">
+            <div class="reel-background"></div>
             <header class="reel-content">
               <h3>Dice roller</h3>
               <p>A Monopoly themed 6 sided dice roller, build with swift using xcode</p>
@@ -164,17 +168,39 @@
             </footer>
           </article>
 
-          <!-- Contact Reel -->
-          <article class="reel">
+          <!-- Hangman Reel -->
+          <article class="reel" style="background: #000;">
+            <div class="reel-background"></div>
             <header class="reel-content">
               <h3>Hangman</h3>
               <p>A recreation of the hangman game built using swift using xcode</p>
-              <a href="mailto:your@email.com" class="email-link">Email me →</a>
             </header>
             <aside class="reel-overlay right">
-              <span class="icon-btn">♡<span>900</span></span>
+              <span class="icon-btn">❤<span>900</span></span>
               <span class="icon-btn">💬<span>5</span></span>
               <span class="icon-btn">➦<span>100</span></span>
+              <span class="icon-btn">⋯</span>
+            </aside>
+            <footer class="reel-overlay bottom">
+              <span class="profile-row">
+                <img src="asset/avatar2.png" class="profile-pic" />
+                <span class="profile-name">stephen_liu</span>
+              </span>
+              <span class="desc">My tech stack and abilities!</span>
+            </footer>
+          </article>
+
+          <!-- Number System converter -->
+          <article class="reel" style="background: #000;">
+            <div class="reel-background"></div>
+            <header class="reel-content">
+              <h3>Number system converter</h3>
+              <p>temp</p>
+            </header>
+            <aside class="reel-overlay right">
+              <span class="icon-btn">❤<span>2.1k</span></span>
+              <span class="icon-btn">💬<span>5</span></span>
+              <span class="icon-btn">➦<span>450</span></span>
               <span class="icon-btn">⋯</span>
             </aside>
             <footer class="reel-overlay bottom">
@@ -419,12 +445,10 @@
         });
       }
       
-      // Setup infinite scroll for both pages
+      // Setup infinite scroll only for about page
       const aboutReels = document.querySelector('#about-page .scroll-reels');
-      const projectReels = document.querySelector('#projects-page .scroll-reels');
       
       setupInfiniteScroll(aboutReels);
-      setupInfiniteScroll(projectReels);
     </script>
   </body>
 </html>
